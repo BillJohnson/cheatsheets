@@ -6,11 +6,7 @@ tags: [Featured]
 updated: 2017-08-26
 weight: -10
 intro: |
-  [Vim](http://www.vim.org/) is a very efficient text editor. This reference was made for Vim 8.0.
----
 
-Getting started
----------------
 {: .-three-column}
 
 ### Exiting
@@ -324,29 +320,7 @@ Do these in visual mode.
 {: .-shortcuts}
 
 ### Text alignment
-
     :center [width]
     :right [width]
     :left
-
 See `:help formatting`
-
-### Calculator
-
-    <C-r>=128/2
-
-Do this in insert mode.
-
-### Exiting with an error
-
-    :cq
-    :cquit
-
-Works like `:qa`, but throws an error. Great for aborting Git commands.
-
-Also see
---------
-
-- [Vim cheatsheet](https://vim.rtorr.com/) _(vim.rotrr.com)_
-- [Vim documentation](http://vimdoc.sourceforge.net/htmldoc/) _(vimdoc.sourceforge.net)_
-- [Interactive Vim tutorial](http://openvim.com/) _(openvim.com)_
